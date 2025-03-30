@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodSoft</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <img src="codsoft.png" alt="CodSoft Logo">
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#internship">Internships</a>
+        <a href="#service">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Welcome to <span>CodSoft</span></h1>
+            <p>CodSoft are IT services and IT consultancy  that specializes in creating innovative solutions for businesses. We are passionate about technology and believe in the power of software to transform the world. Our internship program is just one of the ways in which we are investing in the future of the industry.</p>
+            <div class="btn-box">
+                <a href="#internship" class="btn">Internship</a>
+                <a href="#service" class="btn">Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+     <section class="about" id="about">
+     <div class="about-content">
+        <h2 class="heading">About <span>Codsoft</span></h2>
+        <p> CodSoft are IT services and IT consultancy  that specializes in creating innovative solutions for businesses. We are passionate about technology and believe in the power of software to transform the world. Our internship program is just one of the ways in which we are investing in the future of the industry.</p><br>
+         <p> At CodSoft, we believe practical knowledge is the key to success in the tech industry. Our aim is to help students lacking basic skills by offering hands-on learning through live projects and real-world examples. Our team consists of industry experts who are dedicated to equipping interns with the knowledge and skills needed to succeed in their careers. We foster an inclusive and supportive environment that encourages learning, growth, and creativity. </p>
+         <div class="btn-box btns">
+            <a href="#" class="btn">Read More></a>
+        </div>
+    </div>
+     </section>
+
+     <!-- Internship section -->
+    <section class="internship" id="internship">
+    <div class="intern-content" >
+        <h2 class="heading"><span>Internships</span></h2>
+        <p>We offer internships in various domains:</p>
+        <ul>
+            <li>Web Development</li>
+            <li>Android Development</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Data Science</li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- Services section -->
+     <section class="service" id="service">
+     <div class="service-content">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <p>We provide top-notch services in:</p>
+        <ul>
+            <li>Web Development</li>
+            <li>E-commerce Development</li>
+            <li>Mobile App Development</li>
+            <li>Internship</li>
+        </ul>
+     </div>
+     </section>
+
+     <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+        <div class="contact-section">
+            <p>Email: contact@codsoft.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+            <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <div class="btn-box btns">
+                    <a href="#" class="btn">Submit</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 Codsoft.All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+
+    <script>
+        window.onscroll = () => {
+        let header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 100);
+        }
+    </script>
+</body>
+</html>
